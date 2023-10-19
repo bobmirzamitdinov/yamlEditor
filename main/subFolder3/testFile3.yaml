@@ -4,7 +4,7 @@ metadata:
   name: sample-pod
 spec:
   containers:
-    - image: oldImage
-      name: sample-container
-      ports:
-        - containerPort: 80
+  - image: newdImage
+    name: sample-container
+    ports:
+    - containerPort: 80

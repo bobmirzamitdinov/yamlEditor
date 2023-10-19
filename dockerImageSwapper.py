@@ -18,7 +18,7 @@ def swap_docker_image(root_folder, old_value, new_value):
 
 # Example usage
 root_folder = "main"
-old_value = "newImage"
-new_value = "oldImage"
+old_value = "oldImage"
+new_value = "newdImage"
 
 swap_docker_image(root_folder, old_value, new_value)
