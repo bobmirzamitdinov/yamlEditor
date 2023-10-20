@@ -29,8 +29,3 @@ The script employs the following functions:
 
 - `swap_docker_image(root_folder, old_value, new_value)`: This function walks through the root folder, locates YAML files, and updates the image field from the old value to the new value
 - The script prints the paths of the YAML files where the image field is updated, along with the old and new image values
-
-## Note
-
-- Ensure that you have appropriate permissions to modify the YAML files in the specified directory
-- Verify the old and new image values before running the script
